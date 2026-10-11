@@ -1,0 +1,107 @@
+================================================================================
+DSA PROGRESSION TRACK (FOUNDATIONS TO INTERMEDIATE)
+================================================================================
+
+LEVEL 1: CONTROL FLOW & BASIC ARITHMETIC
+Focus: Loops, conditions, digit extraction, boundary edge cases.
+--------------------------------------------------------------------------------
+[ ] 01. Sum of Digits
+    Input: An integer N (e.g., 1234)
+    Output: Sum of its digits (e.g., 1 + 2 + 3 + 4 = 10)
+    Constraint: Do not convert the integer to a string. Use '%' and '/'.
+
+[ ] 02. Reverse an Integer
+    Input: An integer x (e.g., 123, -456)
+    Output: Reversed integer (e.g., 321, -654)
+    Constraint: Handle negative numbers properly without using strings.
+
+[ ] 03. Palindrome Number
+    Input: An integer x (e.g., 121, -121, 10)
+    Output: true if palindrome, false otherwise.
+    Constraint: Do not convert the integer to a string.
+
+[ ] 04. Primality Test
+    Input: An integer N
+    Output: true if prime, false otherwise.
+    Constraint: Must run in O(sqrt(N)) time complexity.
+
+
+================================================================================
+LEVEL 2: ARRAYS & IN-PLACE MANIPULATION
+Focus: Index tracking, swapping, pointer traversal, space-efficient mutation.
+--------------------------------------------------------------------------------
+[ ] 05. Find Min and Max
+    Input: Array of integers
+    Output: Both the minimum and maximum values
+    Constraint: Traverse the array in a single pass (O(N) time, O(1) space).
+
+[ ] 06. Reverse an Array In-Place
+    Input: Array of integers (e.g., [1, 2, 3, 4, 5])
+    Output: Reversed array modified in-place (e.g., [5, 4, 3, 2, 1])
+    Constraint: O(1) auxiliary memory using the two-pointer approach.
+
+[ ] 07. Check if Array is Sorted
+    Input: Array of integers
+    Output: true if the array is sorted in non-decreasing order, false otherwise.
+    Constraint: Single pass, early exit on inversion.
+
+[ ] 08. Remove Duplicates from Sorted Array
+    Input: Sorted array of integers (e.g., [1, 1, 2, 2, 3])
+    Output: Modify array in-place so unique elements appear first; return count k.
+    Constraint: O(1) extra space.
+
+
+================================================================================
+LEVEL 3: TWO POINTERS & HASHING
+Focus: Frequency counting, space-time tradeoffs, multi-pointer traversal.
+--------------------------------------------------------------------------------
+[ ] 09. Two Sum
+    Input: Array of integers `nums`, target integer `target`
+    Output: Indices of the two numbers that add up to target
+    Task:
+      - Attempt 1: Brute force in O(N^2)
+      - Attempt 2: Optimize to O(N) time using a Hash Map / Table
+
+[ ] 10. Move Zeroes
+    Input: Array of integers (e.g., [0, 1, 0, 3, 12])
+    Output: In-place array with all 0s shifted to the end ([1, 3, 12, 0, 0])
+    Constraint: Maintain relative order of non-zero elements; O(1) extra space.
+
+[ ] 11. Valid Palindrome (String)
+    Input: String s (e.g., "A man, a plan, a canal: Panama")
+    Output: true if palindrome after converting to lowercase and stripping 
+            non-alphanumeric characters, false otherwise.
+    Constraint: Solve using two pointers moving inwards.
+
+[ ] 12. Majority Element
+    Input: Array of size N
+    Output: The element that appears more than floor(N / 2) times
+    Task:
+      - Attempt 1: Frequency map in O(N) time and O(N) space
+      - Attempt 2: Boyer-Moore Voting Algorithm in O(N) time and O(1) space
+
+
+================================================================================
+LEVEL 4: SEARCHING & SLIDING WINDOW / DYNAMIC PROGRAMMING INTRO
+Focus: Divide-and-conquer, continuous subarrays, tracking global extremes.
+--------------------------------------------------------------------------------
+[ ] 13. Binary Search
+    Input: Sorted array of integers, target value
+    Output: Index of target if found, otherwise -1
+    Constraint: Must run in O(log N) time. Implement it iteratively.
+
+[ ] 14. First Bad Version (Lower Bound Search)
+    Input: Range 1 to n, an API `isBadVersion(version)` returning boolean
+    Output: The first version where `isBadVersion` returns true
+    Constraint: Minimize API calls using binary search logic (O(log N)).
+
+[ ] 15. Best Time to Buy and Sell Stock
+    Input: Array of stock prices where prices[i] is the price on day i
+    Output: Maximum profit from buying on one day and selling on a future day
+    Constraint: Single pass in O(N) time, O(1) space.
+
+[ ] 16. Maximum Subarray (Kadane's Algorithm)
+    Input: Array of integers (can include negative numbers)
+    Output: Largest sum among all contiguous subarrays
+    Constraint: O(N) time complexity, O(1) space.
+================================================================================
