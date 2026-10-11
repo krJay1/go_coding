@@ -10,7 +10,7 @@ import (
 // Output: Reversed integer (e.g., 321, -654)
 // Constraint: Handle negative numbers properly without using strings.
 func main() {
-	fmt.Print(revInt(1234))
+	fmt.Println(revInt(1234))
 
 }
 
