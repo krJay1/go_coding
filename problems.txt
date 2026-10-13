@@ -20,7 +20,7 @@ Focus: Loops, conditions, digit extraction, boundary edge cases.
     Output: true if palindrome, false otherwise.
     Constraint: Do not convert the integer to a string.
 
-[ ] 04. Primality Test
+[x] 04. Primality Test
     Input: An integer N
     Output: true if prime, false otherwise.
     Constraint: Must run in O(sqrt(N)) time complexity.
@@ -30,7 +30,7 @@ Focus: Loops, conditions, digit extraction, boundary edge cases.
 LEVEL 2: ARRAYS & IN-PLACE MANIPULATION
 Focus: Index tracking, swapping, pointer traversal, space-efficient mutation.
 --------------------------------------------------------------------------------
-[ ] 05. Find Min and Max
+[x] 05. Find Min and Max
     Input: Array of integers
     Output: Both the minimum and maximum values
     Constraint: Traverse the array in a single pass (O(N) time, O(1) space).
