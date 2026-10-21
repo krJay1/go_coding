@@ -5,12 +5,12 @@ DSA PROGRESSION TRACK (FOUNDATIONS TO INTERMEDIATE)
 LEVEL 1: CONTROL FLOW & BASIC ARITHMETIC
 Focus: Loops, conditions, digit extraction, boundary edge cases.
 --------------------------------------------------------------------------------
-[ ] 01. Sum of Digits
+[x] 01. Sum of Digits
     Input: An integer N (e.g., 1234)
     Output: Sum of its digits (e.g., 1 + 2 + 3 + 4 = 10)
     Constraint: Do not convert the integer to a string. Use '%' and '/'.
 
-[ ] 02. Reverse an Integer
+[x] 02. Reverse an Integer
     Input: An integer x (e.g., 123, -456)
     Output: Reversed integer (e.g., 321, -654)
     Constraint: Handle negative numbers properly without using strings.
