@@ -15,7 +15,7 @@ Focus: Loops, conditions, digit extraction, boundary edge cases.
     Output: Reversed integer (e.g., 321, -654)
     Constraint: Handle negative numbers properly without using strings.
 
-[ ] 03. Palindrome Number
+[x] 03. Palindrome Number
     Input: An integer x (e.g., 121, -121, 10)
     Output: true if palindrome, false otherwise.
     Constraint: Do not convert the integer to a string.
@@ -35,17 +35,17 @@ Focus: Index tracking, swapping, pointer traversal, space-efficient mutation.
     Output: Both the minimum and maximum values
     Constraint: Traverse the array in a single pass (O(N) time, O(1) space).
 
-[ ] 06. Reverse an Array In-Place
+[x] 06. Reverse an Array In-Place
     Input: Array of integers (e.g., [1, 2, 3, 4, 5])
     Output: Reversed array modified in-place (e.g., [5, 4, 3, 2, 1])
     Constraint: O(1) auxiliary memory using the two-pointer approach.
 
-[ ] 07. Check if Array is Sorted
+[x] 07. Check if Array is Sorted
     Input: Array of integers
     Output: true if the array is sorted in non-decreasing order, false otherwise.
     Constraint: Single pass, early exit on inversion.
 
-[ ] 08. Remove Duplicates from Sorted Array
+[x] 08. Remove Duplicates from Sorted Array
     Input: Sorted array of integers (e.g., [1, 1, 2, 2, 3])
     Output: Modify array in-place so unique elements appear first; return count k.
     Constraint: O(1) extra space.
