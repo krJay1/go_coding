@@ -55,7 +55,7 @@ Focus: Index tracking, swapping, pointer traversal, space-efficient mutation.
 LEVEL 3: TWO POINTERS & HASHING
 Focus: Frequency counting, space-time tradeoffs, multi-pointer traversal.
 --------------------------------------------------------------------------------
-[ ] 09. Two Sum
+[x] 09. Two Sum
     Input: Array of integers `nums`, target integer `target`
     Output: Indices of the two numbers that add up to target
     Task:
