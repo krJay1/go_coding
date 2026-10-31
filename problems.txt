@@ -62,7 +62,7 @@ Focus: Frequency counting, space-time tradeoffs, multi-pointer traversal.
       - Attempt 1: Brute force in O(N^2)
       - Attempt 2: Optimize to O(N) time using a Hash Map / Table
 
-[ ] 10. Move Zeroes
+[x] 10. Move Zeroes
     Input: Array of integers (e.g., [0, 1, 0, 3, 12])
     Output: In-place array with all 0s shifted to the end ([1, 3, 12, 0, 0])
     Constraint: Maintain relative order of non-zero elements; O(1) extra space.
